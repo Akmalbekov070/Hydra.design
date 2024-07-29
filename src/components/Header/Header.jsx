@@ -6,7 +6,7 @@ export default function Header() {
 	return (
 		<Box w={'full'} display={'flex'} justifyContent={'space-between'} alignItems={'center'}>
 			<HStack>
-				<Image src={'https://i.postimg.cc/DwCXvRRt/Frame.png'} alt='Logo' />
+				<Image src={'https://i.postimg.cc/JhNPnBy6/Frame.png'} alt='Logo' />
 				<Heading
 					bgGradient='linear(to-l, #C0B7E8, #8176AF)'
 					bgClip='text'
