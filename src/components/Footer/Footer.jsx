@@ -1,6 +1,7 @@
 import { Box, Heading, HStack, Text } from '@chakra-ui/react';
 import React from 'react';
 import { VscLocation } from 'react-icons/vsc';
+import { LuPhoneCall } from 'react-icons/lu';
 
 export default function Footer() {
 	return (
@@ -12,7 +13,9 @@ export default function Footer() {
 			justifyContent={'space-around'}
 			borderRadius={'200px'}
 			alignItems={'center'}
+			color='white'
 		>
+			{/* Location page--- */}
 			<HStack>
 				<VscLocation size={'90'} />
 				<Box>
@@ -22,8 +25,12 @@ export default function Footer() {
 					</Text>
 				</Box>
 			</HStack>
+			{/* line------ */}
 			<Box w={'1px'} h={'100px'} bg={'#C0B7E8'}></Box>
-			<Box></Box>
+			{/* Phone page--- */}
+			<HStack>
+				<LuPhoneCall size={'90'} />
+			</HStack>
 			<Box></Box>
 		</Box>
 	);
