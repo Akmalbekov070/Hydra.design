@@ -2,6 +2,7 @@ import { Box, Heading, HStack, Text } from '@chakra-ui/react';
 import React from 'react';
 import { VscLocation } from 'react-icons/vsc';
 import { LuPhoneCall } from 'react-icons/lu';
+import { CgMail } from 'react-icons/cg';
 
 export default function Footer() {
 	return (
@@ -37,7 +38,16 @@ export default function Footer() {
 					</Text>
 				</Box>
 			</HStack>
-			<Box></Box>
+			<Box w={'1px'} h={'100px'} bg={'#C0B7E8'}></Box>
+			<HStack>
+				<CgMail size={'98'} />
+				<Box>
+					<Heading color={'white'}>Send Us a Message</Heading>
+					<Text fontWeight={'100'} fontStyle={'inherit'} fontFamily={'inherit'} lineHeight={10}>
+						akmalbekov2007@gmail.com
+					</Text>
+				</Box>
+			</HStack>
 		</Box>
 	);
 }

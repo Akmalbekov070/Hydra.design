@@ -24,12 +24,12 @@ export default function Users() {
 						Virtual Reality
 					</Heading>
 				</HStack>
-				<Text w={'40%'} color={'#FFFFFF'} pt={8} fontFamily={'initial'}>
+				<Text w={'40%'} color={'#FFFFFF'} py={6} fontWeight={'100'}>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore nisl
 					tincidunt eget. Lectus mauris eros in vitae .
 				</Text>
 				<HStack gap={'10'}>
-					<Button w={'220px'} h={'50px'} bgGradient='linear(to-l, #C0B7E8 , #8176AF)' border={'1px'} borderRadius={'2xl'} mt={5}>
+					<Button w={'220px'} h={'50px'} bgGradient='linear(to-l, #C0B7E8 , #8176AF)' borderRadius={'2xl'} mt={5}>
 						BUILD YOUR WORLD
 					</Button>
 					<Box pt={5}>
