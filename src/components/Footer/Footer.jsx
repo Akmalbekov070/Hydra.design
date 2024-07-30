@@ -29,7 +29,13 @@ export default function Footer() {
 			<Box w={'1px'} h={'100px'} bg={'#C0B7E8'}></Box>
 			{/* Phone page--- */}
 			<HStack>
-				<LuPhoneCall size={'90'} />
+				<LuPhoneCall size={'80'} />
+				<Box>
+					<Heading color={'white'}>Give Us a Call</Heading>
+					<Text fontWeight={'400'} fontStyle={'inherit'} fontFamily={'inherit'} lineHeight={10}>
+						(110) 1111-1010
+					</Text>
+				</Box>
 			</HStack>
 			<Box></Box>
 		</Box>
