@@ -1,4 +1,4 @@
-import { Box, Button, Heading, HStack, Image } from '@chakra-ui/react';
+import { Box, Button, Heading, HStack, Image, Menu, MenuButton, MenuItem, MenuList } from '@chakra-ui/react';
 import Link from 'next/link';
 import React from 'react';
 import { CiMenuFries } from 'react-icons/ci';
@@ -26,14 +26,29 @@ export default function Header() {
 			</HStack>
 			<HStack gap={5}>
 				{/* Menu Icon  */}
-				<CiMenuFries size={'30'} cursor={'pointer'} />
-				<Button w={'170px'} h={'40px'} border={'1px'} borderColor={'white'} borderRadius={'xl'}>
-					CONTACT US
-				</Button>
-				<Button w={'160px'} h={'40px'} bgGradient='linear(to-l, #8176AF, #C0B7E8)' borderRadius={'xl'}>
-					{' '}
-					JOIN HYDRA
-				</Button>
+				<Box display={{ xl: 'none', base: 'flex' }}>
+					<Menu>
+						<MenuButton>
+							<CiMenuFries size={'30'} cursor={'pointer'} />
+						</MenuButton>
+						<MenuList>
+							<MenuItem>Download</MenuItem>
+							<MenuItem>Create a Copy</MenuItem>
+							<MenuItem>Mark as Draft</MenuItem>
+							<MenuItem>Delete</MenuItem>
+							<MenuItem>Attend a Workshop</MenuItem>
+						</MenuList>
+					</Menu>
+				</Box>
+				<Box display={{ md: 'flex', base: 'none' }} gap={4}>
+					<Button w={'170px'} h={'40px'} border={'1px'} borderColor={'white'} borderRadius={'xl'}>
+						CONTACT US
+					</Button>
+					<Button w={'160px'} h={'40px'} bgGradient='linear(to-l, #8176AF, #C0B7E8)' borderRadius={'xl'}>
+						{' '}
+						JOIN HYDRA
+					</Button>
+				</Box>
 			</HStack>
 		</Box>
 	);

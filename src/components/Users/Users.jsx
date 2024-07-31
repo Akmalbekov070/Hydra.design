@@ -4,7 +4,7 @@ import { LuMoveRight } from 'react-icons/lu';
 
 export default function Users() {
 	return (
-		<Box w={'full'} display={'flex'} justifyContent={'space-between'} alignItems={'center'}>
+		<Box w={'full'} display={{ md: 'flex', base: 'block' }} justifyContent={'space-between'} alignItems={'center'}>
 			<Box>
 				<HStack>
 					<Heading fontSize={'5xl'} bgGradient='linear(to-l, #C0B7E8, #8176AF)' bgClip='text'>
