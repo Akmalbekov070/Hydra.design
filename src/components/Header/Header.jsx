@@ -1,7 +1,7 @@
 import { Box, Button, Heading, HStack, Image } from '@chakra-ui/react';
 import Link from 'next/link';
 import React from 'react';
-
+import { CiMenuFries } from 'react-icons/ci';
 export default function Header() {
 	return (
 		<Box w={'full'} display={'flex'} justifyContent={'space-between'} alignItems={'center'}>
@@ -18,13 +18,15 @@ export default function Header() {
 					HYDRA
 				</Heading>
 			</HStack>
-			<HStack gap={14} color={'white'} fontSize={'sm'}>
+			<HStack display={{ xl: 'flex', base: 'none' }} gap={14} color={'white'} fontSize={'sm'}>
 				<Link href='/About'>ABOUT</Link>
 				<Link href='/Servise'>SERVICES</Link>
 				<Link href='/texnologi'>TECHNOLOGIES</Link>
 				<Link href='/how to'>HOW TO</Link>
 			</HStack>
 			<HStack gap={5}>
+				{/* Menu Icon  */}
+				<CiMenuFries size={'30'} cursor={'pointer'} />
 				<Button w={'170px'} h={'40px'} border={'1px'} borderColor={'white'} borderRadius={'xl'}>
 					CONTACT US
 				</Button>
