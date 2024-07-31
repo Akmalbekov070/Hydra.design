@@ -38,7 +38,7 @@ export default function Users() {
 				</HStack>
 			</Box>
 			<Box pt={'70px'}>
-				<Image w={'full'} h={'400px'} backgroundSize={'cover'} src={'https://i.postimg.cc/0y3YQSw7/Mask-group.png'} alt='Image' />
+				<Image w={'full'} h={'440px'} backgroundSize={'cover'} src={'https://i.postimg.cc/0y3YQSw7/Mask-group.png'} alt='Image' />
 			</Box>
 		</Box>
 	);

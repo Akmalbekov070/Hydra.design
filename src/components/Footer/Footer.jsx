@@ -18,7 +18,7 @@ export default function Footer() {
 		>
 			{/* Location page--- */}
 			<HStack>
-				<VscLocation size={'90'} />
+				<VscLocation color='#C0B7E8' size={'90'} />
 				<Box>
 					<Heading color={'white'}>Pay Us a Visit</Heading>
 					<Text fontWeight={'400'} fontStyle={'inherit'} fontFamily={'inherit'} lineHeight={10}>
@@ -30,7 +30,7 @@ export default function Footer() {
 			<Box w={'1px'} h={'100px'} bg={'#C0B7E8'}></Box>
 			{/* Phone page--- */}
 			<HStack>
-				<LuPhoneCall size={'80'} />
+				<LuPhoneCall color='#C0B7E8' size={'80'} />
 				<Box>
 					<Heading color={'white'}>Give Us a Call</Heading>
 					<Text fontWeight={'400'} fontStyle={'inherit'} fontFamily={'inherit'} lineHeight={10}>
@@ -40,7 +40,7 @@ export default function Footer() {
 			</HStack>
 			<Box w={'1px'} h={'100px'} bg={'#C0B7E8'}></Box>
 			<HStack>
-				<CgMail size={'98'} />
+				<CgMail color='#C0B7E8' size={'98'} />
 				<Box>
 					<Heading color={'white'}>Send Us a Message</Heading>
 					<Text fontWeight={'100'} fontStyle={'inherit'} fontFamily={'inherit'} lineHeight={10}>
