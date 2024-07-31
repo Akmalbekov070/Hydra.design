@@ -5,40 +5,61 @@ import { LuMoveRight } from 'react-icons/lu';
 export default function Users() {
 	return (
 		<Box w={'full'} display={{ md: 'flex', base: 'block' }} justifyContent={'space-between'} alignItems={'center'}>
-			<Box>
-				<HStack>
-					<Heading fontSize={'5xl'} bgGradient='linear(to-l, #C0B7E8, #8176AF)' bgClip='text'>
+			<Box
+				pt={'20px'}
+				display={{ md: 'none', base: 'flex' }}
+				justifyContent={{ base: 'center', md: 'unset' }}
+				align={{ base: 'center' }}
+			>
+				<Image
+					w={'400px'}
+					h={'300px'}
+					backgroundSize={'cover'}
+					src={'https://i.postimg.cc/Ls3tNDYT/Mask-group.png'}
+					alt='Image'
+				/>
+			</Box>
+			{/* px={{ md: 0, base: 10 }} */}
+			<Box w={'full'} textAlign={'center'}>
+				<HStack display={'flex'} justifyContent={{ base: 'center', md: 'unset' }} align={{ base: 'center' }}>
+					<Heading
+						textAlign={'center'}
+						fontSize={{ md: '5xl', base: '3xl' }}
+						bgGradient='linear(to-l, #C0B7E8, #8176AF)'
+						bgClip='text'
+					>
 						Divi
 					</Heading>
-					<Heading fontSize={'5xl'} color={'white'}>
+					<Heading fontSize={{ md: '5xl', base: '3xl' }} color={'white'}>
 						{' '}
 						Into The Depths
 					</Heading>
 				</HStack>
-				<HStack>
-					<Heading fontSize={'4xl'} color={'white'}>
+				<HStack display={'flex'} justifyContent={{ base: 'center', md: 'unset' }} align={{ base: 'center' }}>
+					<Heading fontSize={{ md: '4xl', base: '2xl' }} color={'white'}>
 						Of{' '}
 					</Heading>
-					<Heading fontSize={'5xl'} bgGradient='linear(to-l, #C0B7E8, #8176AF)' bgClip='text'>
+					<Heading fontSize={{ md: '5xl', base: '3xl' }} bgGradient='linear(to-l, #C0B7E8, #8176AF)' bgClip='text'>
 						{' '}
 						Virtual Reality
 					</Heading>
 				</HStack>
-				<Text w={'40%'} color={'#FFFFFF'} py={6} fontWeight={'100'}>
+				<Text w={{ md: '40%', base: 'full' }} color={'#FFFFFF'} py={6} fontWeight={'100'} display={{ md: 'flex', base: 'none' }}>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore nisl
 					tincidunt eget. Lectus mauris eros in vitae .
 				</Text>
-				<HStack gap={'10'}>
+
+				<HStack gap={'10'} display={'flex'} justifyContent={{ base: 'center', md: 'unset' }} align={{ base: 'center' }}>
 					<Button w={'220px'} h={'50px'} bgGradient='linear(to-l, #C0B7E8 , #8176AF)' borderRadius={'2xl'} mt={5}>
 						BUILD YOUR WORLD
 					</Button>
-					<Box pt={5}>
+					<Box pt={5} display={{ md: 'flex', base: 'none' }}>
 						<LuMoveRight color='#C0B7E8' size={'50'} />
 					</Box>
 				</HStack>
 			</Box>
-			<Box pt={'70px'}>
-				<Image w={'full'} h={'440px'} backgroundSize={'cover'} src={'https://i.postimg.cc/0y3YQSw7/Mask-group.png'} alt='Image' />
+			<Box pt={'70px'} display={{ md: 'flex', base: 'none' }}>
+				<Image w={'full'} h={'400px'} backgroundSize={'cover'} src={'https://i.postimg.cc/Ls3tNDYT/Mask-group.png'} alt='Image' />
 			</Box>
 		</Box>
 	);

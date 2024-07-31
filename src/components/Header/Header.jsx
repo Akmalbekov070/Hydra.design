@@ -6,13 +6,13 @@ export default function Header() {
 	return (
 		<Box w={'full'} display={'flex'} justifyContent={'space-between'} alignItems={'center'}>
 			<HStack>
-				<Image src={'https://i.postimg.cc/JhNPnBy6/Frame.png'} alt='Logo' />
+				<Image w={{ md: '', base: '100px' }} src={'https://i.postimg.cc/B6hxGvCP/Frame.png'} alt='Logo' />
 				<Heading
 					bgGradient='linear(to-l, #C0B7E8, #8176AF)'
 					bgClip='text'
 					fontFamily={'inherit '}
 					fontStyle={'initial'}
-					fontSize={'5xl'}
+					fontSize={{ md: '5xl', base: '3xl' }}
 					fontWeight={'100'}
 				>
 					HYDRA
