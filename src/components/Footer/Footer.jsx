@@ -3,6 +3,9 @@ import React from 'react';
 import { VscLocation } from 'react-icons/vsc';
 import { LuPhoneCall } from 'react-icons/lu';
 import { CgMail } from 'react-icons/cg';
+import React from 'react';
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
 
 export default function Footer() {
 	return (
