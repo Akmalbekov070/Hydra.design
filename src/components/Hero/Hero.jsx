@@ -12,7 +12,9 @@ export default function Hero() {
 			<Box>
 				<Users />
 			</Box>
-			<Box pt={'80px'}>{/* <Footer /> */}</Box>
+			<Box pt={'80px'}>
+				<Footer />
+			</Box>
 		</Box>
 	);
 }

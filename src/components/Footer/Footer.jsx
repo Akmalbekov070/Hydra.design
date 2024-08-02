@@ -3,11 +3,30 @@ import React from 'react';
 import { VscLocation } from 'react-icons/vsc';
 import { LuPhoneCall } from 'react-icons/lu';
 import { CgMail } from 'react-icons/cg';
-import React from 'react';
-import Carousel from 'react-multi-carousel';
-import 'react-multi-carousel/lib/styles.css';
 
 export default function Footer() {
+	const carouselItems = [
+		// Your carousel items here
+	];
+
+	const responsive = {
+		// Define responsive settings for different screen sizes
+		desktop: {
+			breakpoint: { max: 3000, min: 1024 },
+			items: 3,
+			slidesToSlide: 3,
+		},
+		tablet: {
+			breakpoint: { max: 1024, min: 464 },
+			items: 2,
+			slidesToSlide: 2,
+		},
+		mobile: {
+			breakpoint: { max: 464, min: 0 },
+			items: 1,
+			slidesToSlide: 1,
+		},
+	};
 	return (
 		<Box
 			w={'full'}
