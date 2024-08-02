@@ -77,7 +77,7 @@ export default function Footer() {
 					<Text fontWeight={'100'} fontStyle={'inherit'} fontFamily={'inherit'} lineHeight={10}>
 						akmalbekov2007@gmail.com
 					</Text>
-					<Box w={'250px'} h={'1px'} display={{ md: 'none', base: 'flex' }} bg={'#C0B7E8'}></Box>
+					<Box w={'200px'} h={'1px'} display={{ md: 'none', base: 'flex' }} bg={'#C0B7E8'}></Box>
 				</Box>
 			</HStack>
 		</Box>
