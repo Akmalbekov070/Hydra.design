@@ -15,7 +15,7 @@ export default function Users() {
 					w={'400px'}
 					h={'300px'}
 					backgroundSize={'cover'}
-					src={'https://i.postimg.cc/Ls3tNDYT/Mask-group.png'}
+					src={'https://i.postimg.cc/DyCyGy7H/Mask-group.png'}
 					alt='Image'
 				/>
 			</Box>
@@ -59,7 +59,7 @@ export default function Users() {
 				</HStack>
 			</Box>
 			<Box pt={'70px'} display={{ md: 'flex', base: 'none' }}>
-				<Image w={'full'} h={'400px'} backgroundSize={'cover'} src={'https://i.postimg.cc/Ls3tNDYT/Mask-group.png'} alt='Image' />
+				<Image w={'full'} h={'400px'} backgroundSize={'cover'} src={'https://i.postimg.cc/DyCyGy7H/Mask-group.png'} alt='Image' />
 			</Box>
 		</Box>
 	);
