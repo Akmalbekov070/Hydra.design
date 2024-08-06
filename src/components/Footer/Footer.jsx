@@ -58,7 +58,7 @@ export default function Footer() {
 			<Box w={'1px'} h={'100px'} display={{ xl: 'flex', base: 'none' }} bg={'#C0B7E8'}></Box>
 			{/* Phone page--- */}
 			<HStack justifyContent={{ base: 'center' }} py={{ base: 10 }}>
-				<LuPhoneCall color='#C0B7E8' size={'80'} />
+				<LuPhoneCall color='#C0B7E8' size={'70'} />
 				<Box>
 					<Heading color={'white'} fontSize={{ xl: 'xl', base: 'lg' }}>
 						Give Us a Call
@@ -82,7 +82,7 @@ export default function Footer() {
 					</Text>
 					{/* next stolba */}
 
-					<Box w={'200px'} h={'1px'} display={{ md: 'none', base: 'flex' }} bg={'#C0B7E8'}></Box>
+					<Box w={'250px'} h={'1px'} display={{ md: 'none', base: 'flex' }} bg={'#C0B7E8'}></Box>
 				</Box>
 			</HStack>
 		</Box>

@@ -4,7 +4,13 @@ import { Footer, HeaderPage, Users } from '..';
 
 export default function Hero() {
 	return (
-		<Box w={'full'} h={{ md: '130vh', base: '170vh' }} bg={'#302C42'} px={{ xl: '120px', lg: '20px', base: '5px' }} py={'50px'}>
+		<Box
+			w={'full'}
+			h={{ md: '130vh', base: '170vh' }}
+			bg={'#302C42'}
+			px={{ xl: '120px', lg: '20px', base: '5px' }}
+			py={{ md: '50px', base: '20px' }}
+		>
 			{/* Header page */}
 			<Box>
 				<HeaderPage />
