@@ -34,7 +34,7 @@ export default function Footer() {
 			bgGradient='linear(to-l, #3A3456, #211E2E)'
 			display={{ md: 'flex', base: 'block' }}
 			justifyContent={{ md: 'space-around', base: 'center' }}
-			borderRadius={'200px'}
+			borderRadius={{ md: '200px', base: '20px' }}
 			alignItems={'center'}
 			color='white'
 			py={{ base: 10 }}
