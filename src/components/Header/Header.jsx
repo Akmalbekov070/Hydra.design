@@ -4,7 +4,7 @@ import React from 'react';
 import { CiMenuFries } from 'react-icons/ci';
 export default function Header() {
 	return (
-		<Box w={'full'} display={'flex'} justifyContent={'space-between'} alignItems={'center'}>
+		<Box w={'full'} display={'flex'} justifyContent={'space-between'} alignItems={'center'} cursor={'pointer'}>
 			<HStack>
 				<Image w={{ md: '', base: '100px' }} src={'https://i.postimg.cc/BnkShYLC/Frame.png'} alt='Logo' />
 				<Heading
@@ -18,7 +18,7 @@ export default function Header() {
 					HYDRA
 				</Heading>
 			</HStack>
-			<HStack display={{ xl: 'flex', base: 'none' }} gap={14} color={'white'} fontSize={'sm'}>
+			<HStack display={{ xl: 'flex', base: 'none' }} gap={14} color={'white'} fontSize={'sm'} cursor={'pointer'}>
 				<Link href='/About'>ABOUT</Link>
 				<Link href='/Servise'>SERVICES</Link>
 				<Link href='/texnologi'>TECHNOLOGIES</Link>
@@ -32,11 +32,10 @@ export default function Header() {
 							<CiMenuFries size={'30'} cursor={'pointer'} />
 						</MenuButton>
 						<MenuList>
-							<MenuItem></MenuItem>
-							<MenuItem></MenuItem>
-							<MenuItem></MenuItem>
-							<MenuItem></MenuItem>
-							<MenuItem></MenuItem>
+							<MenuItem>ABOUT</MenuItem>
+							<MenuItem>SERVICES</MenuItem>
+							<MenuItem>TECHNOLOGIES</MenuItem>
+							<MenuItem>HOW TO</MenuItem>
 						</MenuList>
 					</Menu>
 				</Box>
