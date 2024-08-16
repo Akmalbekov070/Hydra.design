@@ -29,7 +29,7 @@ export default function Header() {
 				<Box display={{ xl: 'none', base: 'flex' }}>
 					<Menu>
 						<MenuButton>
-							<CiMenuFries size={'30'} cursor={'pointer'} />
+							<CiMenuFries size={'30'} color='white' cursor={'pointer'} />
 						</MenuButton>
 						<MenuList>
 							<MenuItem>ABOUT</MenuItem>
