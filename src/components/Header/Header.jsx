@@ -32,10 +32,18 @@ export default function Header() {
 							<CiMenuFries size={'30'} color='white' cursor={'pointer'} />
 						</MenuButton>
 						<MenuList>
-							<MenuItem>ABOUT</MenuItem>
-							<MenuItem>SERVICES</MenuItem>
-							<MenuItem>TECHNOLOGIES</MenuItem>
-							<MenuItem>HOW TO</MenuItem>
+							<Link href={'/About'}>
+								<MenuItem>ABOUT</MenuItem>
+							</Link>
+							<Link href={'/Servise'}>
+								<MenuItem>SERVICES</MenuItem>
+							</Link>
+							<Link href={'/texnologi'}>
+								<MenuItem>TECHNOLOGIES</MenuItem>
+							</Link>
+							<Link href={'how to'}>
+								<MenuItem>HOW TO</MenuItem>
+							</Link>
 						</MenuList>
 					</Menu>
 				</Box>
