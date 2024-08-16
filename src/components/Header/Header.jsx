@@ -5,19 +5,21 @@ import { CiMenuFries } from 'react-icons/ci';
 export default function Header() {
 	return (
 		<Box w={'full'} display={'flex'} justifyContent={'space-between'} alignItems={'center'} cursor={'pointer'}>
-			<HStack>
-				<Image w={{ md: '', base: '100px' }} src={'https://i.postimg.cc/BnkShYLC/Frame.png'} alt='Logo' />
-				<Heading
-					bgGradient='linear(to-l, #C0B7E8, #8176AF)'
-					bgClip='text'
-					fontFamily={'inherit '}
-					fontStyle={'initial'}
-					fontSize={{ md: '5xl', base: '3xl' }}
-					fontWeight={'100'}
-				>
-					HYDRA
-				</Heading>
-			</HStack>
+			<Link href={'/'}>
+				<HStack>
+					<Image w={{ md: '', base: '100px' }} src={'https://i.postimg.cc/BnkShYLC/Frame.png'} alt='Logo' />
+					<Heading
+						bgGradient='linear(to-l, #C0B7E8, #8176AF)'
+						bgClip='text'
+						fontFamily={'inherit '}
+						fontStyle={'initial'}
+						fontSize={{ md: '5xl', base: '3xl' }}
+						fontWeight={'100'}
+					>
+						HYDRA
+					</Heading>
+				</HStack>
+			</Link>
 			<HStack display={{ xl: 'flex', base: 'none' }} gap={14} color={'white'} fontSize={'sm'} cursor={'pointer'}>
 				<Link href='/About'>ABOUT</Link>
 				<Link href='/Servise'>SERVICES</Link>

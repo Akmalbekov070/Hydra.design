@@ -53,7 +53,7 @@ export default function Users() {
 					<Button w={'220px'} h={'50px'} bgGradient='linear(to-l, #C0B7E8 , #8176AF)' borderRadius={'2xl'} mt={5}>
 						BUILD YOUR WORLD
 					</Button>
-					<Box pt={5} display={{ md: 'flex', base: 'none' }}>
+					<Box pt={5} display={{ md: 'flex', base: 'none' }} cursor={'pointer'}>
 						<LuMoveRight color='#C0B7E8' size={'50'} />
 					</Box>
 				</HStack>
